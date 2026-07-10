@@ -1,0 +1,466 @@
+# Malai-XD-2.0 Commands
+
+Generated from the current command registry. Use your active prefix before each command.
+
+## core
+
+- .about (aliases: .info) - About this merge
+- .aimenu - Show ai commands
+- .alive (aliases: .online) - Show bot status
+- .allmenu (aliases: .fullmenu, .commands) - Show every command by category
+- .animemenu - Show anime commands
+- .commandcount (aliases: .cmdcount) - Show command count
+- .convertermenu - Show converter commands
+- .coremenu - Show core commands
+- .downloadsmenu - Show downloads commands
+- .funmenu - Show fun commands
+- .gamesmenu - Show games commands
+- .groupmenu - Show group commands
+- .mediamenu - Show media commands
+- .menu (aliases: .help, .bot, .list) - Show the full image menu
+- .owner (aliases: .creator) - Send owner contact
+- .ownermenu - Show owner commands
+- .ping (aliases: .speed, .latency) - Check bot response speed
+- .prefix - Show current prefix
+- .runtime (aliases: .uptime) - Show uptime
+- .searchmenu - Show search commands
+- .system (aliases: .sysinfo, .server) - Show host system info
+- .textmakermenu - Show textmaker commands
+- .textmenu - Show text commands
+- .toolsmenu - Show tools commands
+- .utilitymenu - Show utility commands
+
+## owner
+
+- .ban - Ban a user from commands
+- .block @user | +254... - Block a WhatsApp user by reply, mention, or number
+- .clearsession (aliases: .clearsess) - Show session reset instructions
+- .mode <public|private> - Set public/private mode
+- .pair <number> (aliases: .paircode, .getpair) - Generate a WhatsApp pairing code
+- .restart - Exit process so host restarts it
+- .setprefix <prefix> (aliases: .prefixset, .newprefix) - Change command prefix. Supports .setprefix+ with no space.
+- .settings <name> <on|off> (aliases: .setting, .toggles) - Show or change on/off bot settings
+- .unban - Unban a user
+- .unblock @user | +254... - Unblock a WhatsApp user by reply, mention, or number
+
+## group
+
+- .add +254101223737 +254... (aliases: .inviteuser, .adduser) - Add one or many numbers to the group
+- .admins (aliases: .staff) - List group admins
+- .approve [number/@user] or approveall (aliases: .accept, .approveall) - Approve pending group join requests
+- .close (aliases: .mute) - Close group chat
+- .demote @user | +254... - Demote admin
+- .groupinfo (aliases: .ginfo) - Show group name, description, dp, admins, and members
+- .grouplink (aliases: .link) - Get invite link
+- .hidetag <message> (aliases: .htag) - Send hidden-tag message
+- .kick @user | +254... (aliases: .remove) - Remove mentioned/replied users or typed numbers from group
+- .open (aliases: .unmute) - Open group chat
+- .promote @user | +254... - Promote user to admin
+- .resetlink (aliases: .revoke) - Reset group invite link
+- .setgdesc <desc> (aliases: .setdesc) - Set group description
+- .setgname <name> (aliases: .setgroupname) - Set group name
+- .tagadmin (aliases: .tagadmins) - Mention admins
+- .tagall (aliases: .everyone) - Mention every group member
+- .totalmembers (aliases: .members) - Count group members
+
+## utility
+
+- .calc <expression> (aliases: .calculate, .math) - Calculate math
+- .choose tea | coffee (aliases: .pick) - Choose from options split by |
+- .coinflip (aliases: .coin) - Flip a coin
+- .date - Show server date
+- .dice (aliases: .roll) - Roll dice
+- .jid (aliases: .groupjid) - Show current chat JID
+- .password (aliases: .passgen) - Generate password
+- .qr <text> - Create QR code link
+- .random <min> <max> (aliases: .rand) - Random number
+- .shortid - Generate short ID
+- .time - Show server time
+- .userid (aliases: .uid) - Show your WhatsApp ID
+- .uuid - Generate UUID
+
+## search
+
+- .github <username> (aliases: .gh) - Search GitHub user
+- .news - News helper
+- .search <query> (aliases: .google) - Search helper
+- .weather <city> - Weather via wttr.in
+- .wiki <topic> (aliases: .wikipedia) - Wikipedia URL helper
+
+## downloads
+
+- .adult <url/query> - adult downloader/search command
+- .facebook <url/query> - facebook downloader/search command
+- .fb <url/query> - fb downloader/search command
+- .gif <url/query> - gif downloader/search command
+- .ig <url/query> - ig downloader/search command
+- .igs <url/query> - igs downloader/search command
+- .igsc <url/query> - igsc downloader/search command
+- .img <url/query> - img downloader/search command
+- .insta <url/query> - insta downloader/search command
+- .instagram <url/query> - instagram downloader/search command
+- .lyrics <url/query> - lyrics downloader/search command
+- .pin <url/query> - pin downloader/search command
+- .pinterest <url/query> - pinterest downloader/search command
+- .play <query/url>|video <query/url> (aliases: .song, .song2, .music, .ytmp3) - Download YouTube music as audio. Use play video for video.
+- .porn <url/query> - porn downloader/search command
+- .savestatus <url/query> - savestatus downloader/search command
+- .spotify <url/query> - spotify downloader/search command
+- .statussave <url/query> - statussave downloader/search command
+- .tiktok <url/query> - tiktok downloader/search command
+- .tiktokaudio <url/query> - tiktokaudio downloader/search command
+- .tt <url/query> - tt downloader/search command
+- .twdl <url/query> - twdl downloader/search command
+- .twitter <url/query> - twitter downloader/search command
+- .video <query/url> (aliases: .ytmp4) - Download YouTube media as video
+- .wallpaper <url/query> - wallpaper downloader/search command
+- .xvideo <url/query> - xvideo downloader/search command
+- .xx <url/query> - xx downloader/search command
+- .youtube <audio|video> <query/url> (aliases: .yt) - Download YouTube audio or video
+
+## converter
+
+- .attp - attp media command
+- .bass - bass media command
+- .blown - blown media command
+- .blur - blur media command
+- .crop - crop media command
+- .deep - deep media command
+- .earrape - earrape media command
+- .enhance - enhance media command
+- .fast - fast media command
+- .fat - fat media command
+- .getpp - getpp media command
+- .img-blur - img-blur media command
+- .nightcore - nightcore media command
+- .remini - remini media command
+- .removebg - removebg media command
+- .reverseaudio - reverseaudio media command
+- .robot - robot media command
+- .s - s media command
+- .setbotpp - setbotpp media command
+- .setpp - setpp media command
+- .simage - simage media command
+- .slow - slow media command
+- .smooth - smooth media command
+- .sticker - sticker media command
+- .stickercrop - stickercrop media command
+- .take - take media command
+- .toimg - toimg media command
+- .tomp3 - tomp3 media command
+- .toptt - toptt media command
+- .tovideo - tovideo media command
+- .tupai - tupai media command
+- .upscale - upscale media command
+- .videodoc - videodoc media command
+- .viewonce - viewonce media command
+- .volaudio - volaudio media command
+- .vv - vv media command
+- .vv2 - vv2 media command
+
+## ai
+
+- .ai <prompt> (aliases: .gpt, .gemini, .chatgpt) - Ask AI/local helper
+- .ask <key> - Read learned reply
+- .imagine <prompt> (aliases: .dalle, .flux, .sora) - Image prompt helper
+- .recipe <ingredient> - Make a quick recipe
+- .story <topic> - Generate short story
+- .summarize <text> (aliases: .summary) - Simple text summary
+- .teach <key> = <reply> - Save a learned reply
+
+## textmaker
+
+- .1917 <text> - 1917 text style
+- .1917style <text> - 1917style text style
+- .3dstone <text> - 3dstone text style
+- .3dtext <text> - 3dtext text style
+- .animebanner <text> - animebanner text style
+- .arena <text> - arena text style
+- .avengers <text> - avengers text style
+- .beach <text> - beach text style
+- .bearlogo <text> - bearlogo text style
+- .birthday <text> - birthday text style
+- .blackpink <text> - blackpink text style
+- .blood <text> - blood text style
+- .bluefire <text> - bluefire text style
+- .business <text> - business text style
+- .candy <text> - candy text style
+- .christmas <text> - christmas text style
+- .cloud <text> - cloud text style
+- .clouds <text> - clouds text style
+- .cyberpunk <text> - cyberpunk text style
+- .devil <text> - devil text style
+- .dragon <text> - dragon text style
+- .fire <text> - fire text style
+- .flame <text> - flame text style
+- .galaxy <text> - galaxy text style
+- .galaxy2 <text> - galaxy2 text style
+- .gaminglogo <text> - gaminglogo text style
+- .glitch <text> - glitch text style
+- .glow <text> - glow text style
+- .glowing <text> - glowing text style
+- .gold <text> - gold text style
+- .gradient <text> - gradient text style
+- .graffiti <text> - graffiti text style
+- .graffiti2 <text> - graffiti2 text style
+- .greenfire <text> - greenfire text style
+- .hacker <text> - hacker text style
+- .halloween <text> - halloween text style
+- .ice <text> - ice text style
+- .impressive <text> - impressive text style
+- .joker <text> - joker text style
+- .lava <text> - lava text style
+- .leaf <text> - leaf text style
+- .leaves <text> - leaves text style
+- .light <text> - light text style
+- .lionlogo <text> - lionlogo text style
+- .logomaker <text> - logomaker text style
+- .luxury <text> - luxury text style
+- .marvel <text> - marvel text style
+- .matrix <text> - matrix text style
+- .matrixcode <text> - matrixcode text style
+- .metallic <text> - metallic text style
+- .naruto <text> - naruto text style
+- .neon <text> - neon text style
+- .neondevil <text> - neondevil text style
+- .neonlight <text> - neonlight text style
+- .pencil <text> - pencil text style
+- .pixel <text> - pixel text style
+- .pornhub <text> - pornhub text style
+- .purple <text> - purple text style
+- .rainbow <text> - rainbow text style
+- .retro <text> - retro text style
+- .royaltext <text> - royaltext text style
+- .sand <text> - sand text style
+- .signature <text> - signature text style
+- .silver <text> - silver text style
+- .sketch <text> - sketch text style
+- .smoke <text> - smoke text style
+- .snow <text> - snow text style
+- .spacebanner <text> - spacebanner text style
+- .steel <text> - steel text style
+- .summer <text> - summer text style
+- .summerbeach <text> - summerbeach text style
+- .sunset <text> - sunset text style
+- .thunder <text> - thunder text style
+- .topography <text> - topography text style
+- .toxic <text> - toxic text style
+- .typography <text> - typography text style
+- .underwater <text> - underwater text style
+- .vintage <text> - vintage text style
+- .water <text> - water text style
+- .watercolortext <text> - watercolortext text style
+- .wolf <text> - wolf text style
+- .wood <text> - wood text style
+- .writetext <text> - writetext text style
+
+## text
+
+- .base64 <text> (aliases: .b64) - Encode base64
+- .binary <text> - Text to binary
+- .bold <text> - Bold unicode text
+- .capitalize <text> - Capitalize text
+- .charcount <text> - Count characters
+- .circletext <text> (aliases: .circlefont) - Circle unicode text
+- .clap <text> - Clap text
+- .double <text> - Double-struck unicode text
+- .emojify <text> - Add emoji between words
+- .italic <text> - Italic unicode text
+- .lower <text> (aliases: .lowercase) - Lowercase text
+- .mock <text> - Mocking text
+- .mono <text> - Monospace unicode text
+- .morse <text> - Text to morse
+- .reverse <text> - Reverse text
+- .space <text> - Space letters
+- .spoiler <text> - WhatsApp spoiler style
+- .titlecase <text> - Title-case text
+- .unbase64 <text> (aliases: .unb64) - Decode base64
+- .unbinary <text> - Binary to text
+- .unmorse <text> - Morse to text
+- .upper <text> (aliases: .uppercase) - Uppercase text
+- .urldecode <text> - URL decode
+- .urlencode <text> - URL encode
+- .vapor <text> - Vaporwave text
+- .wordcount <text> - Count words
+
+## fun
+
+- .8ball (aliases: .eightball) - Ask magic 8 ball
+- .badboy - badboy percentage
+- .beautiful - beautiful percentage
+- .compliment (aliases: .complimentry) - Compliment a user
+- .coolrate - coolrate percentage
+- .cuterate - cuterate percentage
+- .dare - Dare challenge
+- .evilrate - evilrate percentage
+- .fact - Random fact
+- .flirt - Flirty line
+- .gayrate - gayrate percentage
+- .goodrate - goodrate percentage
+- .handsome - handsome percentage
+- .horny - horny percentage
+- .insult - Playful roast
+- .joke - Random joke
+- .kingrate - kingrate percentage
+- .lovelyrate - lovelyrate percentage
+- .luckrate - luckrate percentage
+- .queenrate - queenrate percentage
+- .quote - Random quote
+- .ship - Ship two users/names
+- .simprate - simprate percentage
+- .smartcheck - smartcheck percentage
+- .stupidrate - stupidrate percentage
+- .truth - Truth question
+- .truthdetector (aliases: .lie) - Fake truth detector
+
+## games
+
+- .hangman - Mini hangman prompt
+- .quiz (aliases: .trivia) - Quick trivia
+- .rps <rock|paper|scissors> (aliases: .rockpaper) - Rock paper scissors
+- .tictactoe (aliases: .ttt) - Tic-tac-toe info
+
+## anime
+
+- .angry - angry anime/action command
+- .anime - anime anime/action command
+- .animu - animu anime/action command
+- .animuquote - animuquote anime/action command
+- .bite - bite anime/action command
+- .blush - blush anime/action command
+- .bored - bored anime/action command
+- .confused - confused anime/action command
+- .cry - cry anime/action command
+- .cuddle - cuddle anime/action command
+- .dance - dance anime/action command
+- .face-palm - face-palm anime/action command
+- .facepalm - facepalm anime/action command
+- .feed - feed anime/action command
+- .happy - happy anime/action command
+- .hentai - hentai anime/action command
+- .highfive - highfive anime/action command
+- .hneko - hneko anime/action command
+- .hug - hug anime/action command
+- .hwaifu - hwaifu anime/action command
+- .jump - jump anime/action command
+- .kill - kill anime/action command
+- .kiss - kiss anime/action command
+- .konachan - konachan anime/action command
+- .loli - loli anime/action command
+- .megumin - megumin anime/action command
+- .milf - milf anime/action command
+- .neko - neko anime/action command
+- .nom - nom anime/action command
+- .pat - pat anime/action command
+- .poke - poke anime/action command
+- .run - run anime/action command
+- .sad - sad anime/action command
+- .slap - slap anime/action command
+- .sleep - sleep anime/action command
+- .smile - smile anime/action command
+- .waifu - waifu anime/action command
+- .wave - wave anime/action command
+- .wink - wink anime/action command
+- .yeet - yeet anime/action command
+
+## tools
+
+- .addsudo - addsudo command
+- .antibadword <on|off|status> - antibadword on/off setting
+- .anticall <on|off|status> - anticall on/off setting
+- .antidelete <on|off|status> - antidelete on/off setting
+- .antidelete_status <on|off|status> - antidelete_status on/off setting
+- .antideleteviewonce <on|off|status> - antideleteviewonce on/off setting
+- .antigroupmention <on|off|status> - antigroupmention on/off setting
+- .antilink <on|off|status> - antilink on/off setting
+- .antistatus <on|off|status> - antistatus on/off setting
+- .antitag <on|off|status> - antitag on/off setting
+- .antiword <on|off|status> - antiword on/off setting
+- .autobio <on|off|status> - autobio on/off setting
+- .autoreact <on|off|status> - autoreact on/off setting
+- .autoread <on|off|status> - autoread on/off setting
+- .autorecord <on|off|status> - autorecord on/off setting
+- .autostatus <on|off|status> - autostatus on/off setting
+- .autosticker <on|off|status> - autosticker on/off setting
+- .autotyping <on|off|status> - autotyping on/off setting
+- .bio - bio command
+- .bomb - bomb command
+- .broadcast - broadcast command
+- .channel - channel command
+- .character - character command
+- .china - china command
+- .circle - circle command
+- .clean - clean command
+- .clear - clear command
+- .cleartmp - cleartmp command
+- .commandreact <on|off|status> - commandreact on/off setting
+- .comrade - comrade command
+- .del - del command
+- .delete - delete command
+- .delsudo - delsudo command
+- .emojimix - emojimix command
+- .gay - gay command
+- .glass - glass command
+- .gn - gn command
+- .goodbye <on|off|status> - goodbye on/off setting
+- .goodnight - goodnight command
+- .greet <on|off|status> - greet on/off setting
+- .groupstats - groupstats command
+- .heart - heart command
+- .india - india command
+- .indonesia - indonesia command
+- .its-so-stupid - its-so-stupid command
+- .jail - jail command
+- .japan - japan command
+- .korea - korea command
+- .lgbt - lgbt command
+- .lolice - lolice command
+- .lovenight - lovenight command
+- .malaysia - malaysia command
+- .meme - meme command
+- .memesearch - memesearch command
+- .mention <on|off|status> - mention on/off setting
+- .myactivity - myactivity command
+- .namecard - namecard command
+- .newsletter - newsletter command
+- .oogway - oogway command
+- .oogway2 - oogway2 command
+- .owners - owners command
+- .passed - passed command
+- .pingspam - pingspam command
+- .pmblocker <on|off|status> - pmblocker on/off setting
+- .presence - presence command
+- .reject - reject command
+- .repo - repo command
+- .resetwarn - resetwarn command
+- .roseday - roseday command
+- .screenshot - screenshot command
+- .setbotname - setbotname command
+- .setmenuimage - setmenuimage command
+- .setnewsletter - setnewsletter command
+- .shayari - shayari command
+- .simpcard - simpcard command
+- .ss - ss command
+- .ssweb - ssweb command
+- .sudo - sudo command
+- .support - support command
+- .thailand - thailand command
+- .tonikawa - tonikawa command
+- .topmembers - topmembers command
+- .translate - translate command
+- .translate2 - translate2 command
+- .triggered - triggered command
+- .trt - trt command
+- .trt2 - trt2 command
+- .tts - tts command
+- .tweet - tweet command
+- .up - up command
+- .update - update command
+- .url - url command
+- .vcf - vcf command
+- .warn - warn command
+- .warnings - warnings command
+- .wasted - wasted command
+- .welcome <on|off|status> - welcome on/off setting
+- .ytcomment - ytcomment command
+

@@ -1,0 +1,39 @@
+{
+  "name": "malai-xd-2-asaia-mega-whatsapp-bot",
+  "version": "1.0.5",
+  "description": "Malai-XD-2.0 Asaia Mega WhatsApp bot with compact organised menu, working autorecord/autotyping presence, improved group management, autobio, pairing, owner contact, reactions, autostatus, and YouTube downloads.",
+  "main": "start.js",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "start:qr": "LOGIN_METHOD=qr node start.js",
+    "start:pair": "LOGIN_METHOD=pair node start.js",
+    "test": "node scripts/verify.js",
+    "verify": "node scripts/verify.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "termux",
+    "render",
+    "railway",
+    "vps"
+  ],
+  "author": "Generated merge from uploaded bot files",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.5",
+    "file-type": "^16.5.4",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "^2.13.1",
+    "mumaker": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

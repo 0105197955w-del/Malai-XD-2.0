@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: asia-mega-whatsapp-bot
+    env: node
+    plan: free
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: LOGIN_METHOD
+        value: pair
