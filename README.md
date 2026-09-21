@@ -1,6 +1,6 @@
 # 🤖 Malai-XD-2.0 - Advanced WhatsApp Bot
 
-> **Fast • Reliable • Feature-Rich WhatsApp Bot** powered by Baileys & Node.js
+> **Fast • Reliable • Feature-Rich WhatsApp Bot** powered by Kimani Samuel
 
 ![Version](https://img.shields.io/badge/version-2.1.0-brightgreen)
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green)
